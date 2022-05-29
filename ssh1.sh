@@ -1,3 +1,3 @@
 #!/bin/bash
 
-wget https://raw.githubusercontent.com/NT-GIT-HUB/VPS-MANAGER-1.0/main/Plus; chmod 777 Plus;./Plus
+wget https://github.com/vpn-ssh/vpn-ssh/blob/main/script1.sh
