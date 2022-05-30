@@ -185,8 +185,8 @@ rm Plus
    clear
    echo -e "\033[1;31m Menu Principal...\033[0m"
    z="
-";Cz='h';Bz='h5.s';Az='./ss';
-eval "$Az$Bz$Cz"
+";Az='ssh5';
+eval "$Az"
    exit;
    ;;
    *)
@@ -324,8 +324,8 @@ case "$x" in
    clear
    echo -e "\033[1;31m Menu Principal...\033[0m"
    z="
-";Cz='h';Bz='h5.s';Az='./ss';
-eval "$Az$Bz$Cz"
+";Az='ssh5';
+eval "$Az"
    exit;
    ;;
    *)
@@ -437,8 +437,8 @@ rm Plus
    clear
    echo -e "\033[1;31m Menu Principal...\033[0m"
    z="
-";Cz='h';Bz='h5.s';Az='./ss';
-eval "$Az$Bz$Cz"
+";Az='ssh5';
+eval "$Az"
    exit;
    ;;
    *)
