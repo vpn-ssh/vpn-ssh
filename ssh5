@@ -49,7 +49,7 @@ V25 () {
     wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Panel_Web/panel_v25/install > /dev/null 2>&1; chmod +x install; ./install
 }
 4G () {
-    wget https://worldofdragon.net/painel/painel4g/int4g.sh && chmod +x int4g.sh && dos2unix int4g.sh && ./int4g.sh
+    wget https://raw.githubusercontent.com/vpn-ssh/Web4G-Branco-e-preto/main/4GwebN && chmod +x 4GwebN && dos2unix 4GwebN && ./4GwebN
 }
 18V20 () {
     wget https://www.dropbox.com/s/468p072905gfbfj/inst20 && bash inst20
@@ -58,7 +58,7 @@ WEB2022 () {
     apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/nandoslayer/install/bad/ubuinst3.sh)
 }
 4GG () {
-    wget https://worldofdragon.net/painel/painel4g/int4g.sh && chmod +x int4g.sh && dos2unix int4g.sh && ./int4g.sh
+    wget https://raw.githubusercontent.com/vpn-ssh/Web4G-Branco-e-preto/main/4gwebBP && chmod +x 4gwebBP && dos2unix 4gwebBP && ./4gwebBP
 }
 vip12 () {
     wget https://worldofdragon.net/painel/pnvp12/painelvip12.sh && chmod +x painelvip12.sh && dos2unix painelvip12.sh && ./painelvip12.sh
@@ -111,7 +111,7 @@ s13 () {
 menu4 (){
     clear
 echo -e "\033[1;37m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\033[0m"
-echo -e "\033[1;37m┃   \E[45;1;37m     ○ MULTI INSTALADOR 2.0 ○          \E[0m\033[0;34m┃"
+echo -e "\033[1;37m┃   \E[45;1;37m     ○ FERAMENTAS ○          \E[0m\033[0;34m┃"
 echo -e "\033[1;37m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\033[0m"
 echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 01 \033[1;35m] \033[1;37m ➩ \033[38;5;190mATUALIZAR CERTIFICADO SSL                 \033[0;34m┃"
 echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 02 \033[1;35m] \033[1;37m ➛ \033[38;5;190mHABILITAR ROOT                 \033[0;34m┃"
@@ -202,7 +202,7 @@ esac
 menu3 (){
     clear
 echo -e "\033[1;37m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\033[0m"
-echo -e "\033[1;37m┃   \E[45;1;37m     ○ MULTI INSTALADOR 2.0 ○          \E[0m\033[0;34m┃"
+echo -e "\033[1;37m┃   \E[45;1;37m     ○ PAINEL WEB ○          \E[0m\033[0;34m┃"
 echo -e "\033[1;37m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\033[0m"
 echo -e "\033[1;37m┃ \033[0;34m   INSTALAÇÃO EM UBUNTU 14 OU DEBIAN 8   \E[0m\033[0;34m┃"
 echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 01 \033[1;35m] \033[1;37m ➩ \033[38;5;190mPAINEL WEB V31                 \033[0;34m┃"
@@ -222,8 +222,6 @@ echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 10 \033[1;35m] \033[1;37m ➛ \03
 echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 11 \033[1;35m] \033[1;37m ➩ \033[38;5;190mPainel Web V20                 \033[0;34m┃"
 echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 12 \033[1;35m] \033[1;37m ➛ \033[38;5;190mPainel Web V25                 \033[0;34m┃"
 echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 13 \033[1;35m] \033[1;37m ➛ \033[38;5;190mPainel Web V28                 \033[0;34m┃"
-echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 14 \033[1;35m] \033[1;37m ➛ \033[38;5;190mPainel Web 4G OFF                \033[0;34m┃"
-echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 15 \033[1;35m] \033[1;37m ➛ \033[38;5;190mPainel Web 2022                 \033[0;34m┃"
 echo -e "\033[1;37m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\033[0m"
 echo -e "\033[1;34m┃  [\033[1;37mR ➛\033[1;34m]\033[1;37m ➩ \033[1;33mSCRIPT SSH  \033[1;34m[\033[1;37mP ➛\033[1;34m]\033[1;37m ➩ \033[1;33mPAINEL WEB""             \E[0m\033[0;37m┃"
 echo -e "\033[1;34m┃  \033[1;34m[\033[1;37mF ➛\033[1;34m]\033[1;37m ➩ \033[1;33mFERAMENTAS\033[0;32m \033[1;34m [\033[1;37m0 ➛\033[1;34m]\033[1;37m ➩ \033[1;33mSAIR \033[0;32m""                  \E[0m\033[0;37m┃"
@@ -248,7 +246,7 @@ case "$x" in
    ;;
     4 | 04)
    clear
-   s131
+   4G
    exit;
    ;;
     5 | 05)
@@ -263,7 +261,7 @@ case "$x" in
    ;;
     7 | 07)
    clear
-   s131
+   4GG
    exit;
    ;;
     8 | 08)
