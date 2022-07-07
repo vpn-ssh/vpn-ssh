@@ -49,7 +49,7 @@ V25 () {
     wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Panel_Web/panel_v25/install > /dev/null 2>&1; chmod +x install; ./install
 }
 4G () {
-    wget https://raw.githubusercontent.com/vpn-ssh/Web4G-Branco-e-preto/main/4GwebN && chmod +x 4GwebN && dos2unix 4GwebN && ./4GwebN
+   bash <(wget -qO- raw.githubusercontent.com/vpn-ssh/Web4G-Branco-e-preto/main/4GwebN)
 }
 18V20 () {
     wget https://www.dropbox.com/s/468p072905gfbfj/inst20 && bash inst20
@@ -58,7 +58,7 @@ WEB2022 () {
     apt install wget -y; bash <(wget -qO- bitbucket.org/nandoslayer/painel/downloads/installbase.sh)
 }
 4GG () {
-    wget https://raw.githubusercontent.com/vpn-ssh/Web4G-Branco-e-preto/main/4gwebBP && chmod +x 4gwebBP && dos2unix 4gwebBP && ./4gwebBP
+    bash <(wget -qO- raw.githubusercontent.com/vpn-ssh/Web4G-Branco-e-preto/main/4gwebBP)
 }
 vip12 () {
     wget https://worldofdragon.net/painel/pnvp12/painelvip12.sh && chmod +x painelvip12.sh && dos2unix painelvip12.sh && ./painelvip12.sh
