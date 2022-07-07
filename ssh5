@@ -146,6 +146,7 @@ rm Plus
     3 | 03)
    clear
 rm Plus
+rm /usr/bin/ssh5
    tcp
    exit;
    ;;
