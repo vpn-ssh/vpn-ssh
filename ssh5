@@ -169,6 +169,11 @@ rm Plus
    gestor2
    exit;
    ;; 
+   8 | 08)
+   clear
+   4GAtal
+   exit;
+   ;;
    r | R)
    clear
    menu2
