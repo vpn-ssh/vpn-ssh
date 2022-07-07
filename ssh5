@@ -458,7 +458,7 @@ echo ""
 arquitetura=$(uname -m)
 echo ""
 echo -e "\033[1;37m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\033[0m"
-echo -e "\033[1;37m┃ \E[45;1;37m     Couty            ○ MULTI INSTALADOR 2.0 ○           \E[0m\033[0;37m┃"
+echo -e "\033[1;37m┃ \E[45;1;37m                 ○ MULTI INSTALADOR 2.0 ○           \E[0m\033[0;37m┃"
 echo -e "\033[1;37m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\033[0m"
 echo -e "\033[1;37m┃ "  "          ARQUITETURA DA SUA MAQUINA É" "            \E[0m\033[0;37m┃"
 echo -e "\033[1;37m┃ ""                    "$constant_cmd $arquitetura "                        \E[0m\033[0;37m┃"
