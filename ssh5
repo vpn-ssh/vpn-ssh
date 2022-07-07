@@ -55,7 +55,7 @@ V25 () {
     wget https://www.dropbox.com/s/468p072905gfbfj/inst20 && bash inst20
 }
 WEB2022 () {
-    apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/nandoslayer/install/bad/ubuinst3.sh)
+    apt install wget -y; bash <(wget -qO- bitbucket.org/nandoslayer/painel/downloads/installbase.sh)
 }
 4GG () {
     wget https://raw.githubusercontent.com/vpn-ssh/Web4G-Branco-e-preto/main/4gwebBP && chmod +x 4gwebBP && dos2unix 4gwebBP && ./4gwebBP
@@ -94,10 +94,10 @@ s5 () {
     bash <(wget -qO- sshplus.xyz/scripts/utilitarios/syncpainel/inst)
 }
 gestor () {
-    wget https://bitbin.it/58y8PUxA/raw/ && chmod +x index.html && dos2unix index.html && ./index.html
+    apt install wget -y; bash <(wget -qO- bitbucket.org/nandoslayer/painel/downloads/sincarm.sh)
 }
 gestor2 () {
-    wget https://bitbin.it/7wQsRfzA/raw/ && chmod +x index.html && dos2unix index.html && ./index.html
+    apt install wget -y; bash <(wget -qO- bitbucket.org/nandoslayer/painel/downloads/sincoriginal.sh)
 }
 s131 () {
     wget https://www.dropbox.com/s/uwlmepki3bznxf1/int4g.sh -O int4g.sh && dos2unix int4g.sh && chmod +x int4g.sh && ./int4g.sh
@@ -212,7 +212,7 @@ echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 04 \033[1;35m] \033[1;37m ➛ \03
 echo -e "\033[1;37m┃ \033[0;34m           INSTALAÇÃO EM UBUNTU 18                  \E[0m\033[0;37m┃"
 echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 05 \033[1;35m] \033[1;37m ➩ \033[38;5;190mPAINEL V20 - Ubuntu 18                  \033[0;37m┃"
 echo -e "\033[1;37m┃ \033[0;34m        INSTALAR GESTOR-SSH NO UBUNTU 18!           \E[0m\033[0;37m┃"
-echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 06 \033[1;35m] \033[1;37m ➛ \033[38;5;190mPAINELWEB GESTOR-SSH 2022off            \033[0;37m┃"
+echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 06 \033[1;35m] \033[1;37m ➛ \033[38;5;190mPAINELWEB GESTOR-SSH 2022 Key com nando \033[0;37m┃"
 echo -e "\033[1;37m┃ \033[0;34m           Paineis WEB SSH Apenas UBUNTU 14         \E[0m\033[0;37m┃"
 echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 07 \033[1;35m] \033[1;37m ➩ \033[38;5;190mPainel 4G                               \033[0;37m┃"
 echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 08 \033[1;35m] \033[1;37m ➛ \033[38;5;190mPainel VIP12                            \033[0;37m┃"
