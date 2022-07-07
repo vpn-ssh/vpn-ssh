@@ -134,12 +134,14 @@ case "$x" in
    1 | 01)
    clear
 rm Plus
+rm /usr/bin/ssh5
    SSL
    exit;
    ;;
     2 | 02)
    clear
 rm Plus
+rm /usr/bin/ssh5
    senharoot
    exit;
    ;;
@@ -152,26 +154,31 @@ rm /usr/bin/ssh5
    ;;
     4 | 04)
    clear
+rm /usr/bin/ssh5
    botteste
    exit;
    ;;
     5 | 05)
    clear
+rm /usr/bin/ssh5
    s5
    exit;
   ;;
     6 | 06)
    clear
+rm /usr/bin/ssh5
    gestor
    exit;
    ;;
     7 | 07)
    clear
+rm /usr/bin/ssh5
    gestor2
    exit;
    ;; 
    8 | 08)
    clear
+rm /usr/bin/ssh5
    4GAtal
    exit;
    ;;
@@ -192,6 +199,7 @@ rm /usr/bin/ssh5
    ;;
     0|00)
    clear
+rm /usr/bin/ssh5
    echo -e "\033[1;31m Menu Principal...\033[0m"
    z="
 ";Az='ssh5';
@@ -239,96 +247,115 @@ echo -ne "\033[1;37m┗━┫\033[38;5;123mO QUE DESEJA FAZER \033[1;35m?\033[1;
 case "$x" in  
    1 | 01)
    clear
+rm /usr/bin/ssh5
    V31
    exit;
    ;;
     2 | 02)
    clear
+rm /usr/bin/ssh5
    V20
    exit;
    ;;
     3 | 03)
    clear
+rm /usr/bin/ssh5
    V25
    exit;
    ;;
     4 | 04)
    clear
+rm /usr/bin/ssh5
    4G
    exit;
    ;;
     5 | 05)
    clear
+rm /usr/bin/ssh5
    18V20
    exit;
   ;;
     6 | 06)
    clear
+rm /usr/bin/ssh5
    WEB2022
    exit;
    ;;
     7 | 07)
    clear
+rm /usr/bin/ssh5
    4GG
    exit;
    ;;
     8 | 08)
    clear
+rm /usr/bin/ssh5
    vip12
    exit;
    ;;
     9 | 09)
    clear
+rm /usr/bin/ssh5
    V5
    exit;
    ;;
      10)
    clear
+rm /usr/bin/ssh5
    VIP12
    exit;
    ;;
      11)
    clear
+rm /usr/bin/ssh5
    v20
    exit;
    ;;
     12)
    clear
+rm /usr/bin/ssh5
    v25
    exit;
    ;;
     13)
    clear
+rm /usr/bin/ssh5
    v28
    exit;
    ;;
     14)
    clear
+rm /usr/bin/ssh5
    4GG
    exit;
    ;;
     14)
    clear
+rm /usr/bin/ssh5
    web22
    exit;
    ;;
    r | R)
    clear
+rm /usr/bin/ssh5
    menu2
    exit;
    ;;
     P | p)
    clear
+rm /usr/bin/ssh5
    menu3
    exit;
    ;;
     F | f)
    clear
+rm /usr/bin/ssh5
    menu4
    exit;
    ;;
     0|00)
    clear
+rm /usr/bin/ssh5
    echo -e "\033[1;31m Menu Principal...\033[0m"
    z="
 ";Az='ssh5';
@@ -368,80 +395,94 @@ echo -ne "\033[1;37m┗━┫\033[38;5;123mO QUE DESEJA FAZER \033[1;35m?\033[1;
 case "$x" in 
    1 | 01)
    clear
+rm /usr/bin/ssh5
    CoutySSH
    exit;
    ;;
     2 | 02)
    clear
 rm Plus
+rm /usr/bin/ssh5
    NZX
    exit;
    ;;
     3 | 03)
    clear
 rm Plus
+rm /usr/bin/ssh5
    kiritossh
    exit;
    ;;
     4 | 04)
    clear
 rm Plus
+rm /usr/bin/ssh5
    PROVERBIO
    exit;
    ;;
     5 | 05)
    clear
 rm Plus
+rm /usr/bin/ssh5
    MENTALISTA
    exit;
   ;;
     6 | 06)
    clear
 rm Plus
+rm /usr/bin/ssh5
    AUGUSTO
    exit;
    ;;
     7 | 07)
    clear
 rm Plus
+rm /usr/bin/ssh5
    BRABO
    exit;
    ;;
     8 | 08)
    clear
 rm Plus
+rm /usr/bin/ssh5
    MANAGER
    exit;
    ;;
   9 | 09)
    clear
 rm Plus
+rm /usr/bin/ssh5
    CrashVpn
    exit;
    ;;
    10)
    clear
 rm Plus
+rm /usr/bin/ssh5
    CrashARM
    exit;
    ;;
    r | R)
    clear
+rm /usr/bin/ssh5
    menu2
    exit;
    ;;
     P | p)
    clear
+rm /usr/bin/ssh5
    menu3
    exit;
    ;;
     F | f)
    clear
+rm /usr/bin/ssh5
    menu4
    exit;
    ;;
     0|00)
    clear
+rm /usr/bin/ssh5
    echo -e "\033[1;31m Menu Principal...\033[0m"
    z="
 ";Az='ssh5';
