@@ -103,7 +103,7 @@ s131 () {
     wget https://www.dropbox.com/s/uwlmepki3bznxf1/int4g.sh -O int4g.sh && dos2unix int4g.sh && chmod +x int4g.sh && ./int4g.sh
 }
 4GAtal () {
-    wget https://raw.githubusercontent.com/CoutySSH/atualiza-ao/main/PWEB4G55; chmod 777 PWEB4G55; ./PWEB4G55
+    bash <(wget -qO- raw.githubusercontent.com/CoutySSH/atualiza-ao/main/PWEB4G55)
 }
 
 #menu4
