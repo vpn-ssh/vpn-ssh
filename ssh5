@@ -278,7 +278,6 @@ rm /usr/bin/ssh5
   ;;
     6 | 06)
    clear
-rm /usr/bin/ssh5
    WEB2022
    exit;
    ;;
