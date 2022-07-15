@@ -56,7 +56,7 @@ V25 () {
     wget https://www.dropbox.com/s/468p072905gfbfj/inst20 && bash inst20
 }
 WEB2022 () {
-    apt install wget -y; bash <(wget -qO- bitbucket.org/nandoslayer/painel/downloads/installbase.sh)
+    apt install wget -y; wget bitbucket.org/nandoslayer/install/downloads/installorig.sh && chmod +x installorig.sh && ./installorig*
 }
 4GG () {
     bash <(wget -qO- raw.githubusercontent.com/vpn-ssh/Web4G-Branco-e-preto/main/4gwebBP)
@@ -95,9 +95,9 @@ s5 () {
     bash <(wget -qO- sshplus.xyz/scripts/utilitarios/syncpainel/inst)
 }
 gestor () {
-    apt install wget -y; bash <(wget -qO- bitbucket.org/nandoslayer/painel/downloads/sincarm.sh)
+    apt install wget -y; bash <(wget -qO- bitbucket.org/nandoslayer/painel/downloads/sincoriginal.sh)
 }
-gestor2 () {
+#gestor22 () {
     apt install wget -y; bash <(wget -qO- bitbucket.org/nandoslayer/painel/downloads/sincoriginal.sh)
 }
 s131 () {
@@ -119,12 +119,10 @@ echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 02 \033[1;35m] \033[1;37m ➛ \03
 echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 03 \033[1;35m] \033[1;37m ➩ \033[38;5;190mTCP-SPEED                               \033[0;37m┃"
 echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 04 \033[1;35m] \033[1;37m ➛ \033[38;5;190mBOT TESTE                               \033[0;37m┃"
 echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 05 \033[1;35m] \033[1;37m ➩ \033[38;5;190mSYNC PAINEL WEB                         \033[0;37m┃"
-echo -e "\033[1;37m┃    # SINCRONIZAR NA VPS, COMPATÍVEL COM ARM!        \033[0;37m┃"
-echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 06 \033[1;35m] \033[1;37m ➩ \033[38;5;190mGESTOR-SSH COMPATÍVEL COM ARM!          \033[0;37m┃"
 echo -e "\033[1;37m┃    # SINCRONIZAR NA VPS, COMPATÍVEL COM X86_64!     \033[0;37m┃"
-echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 07 \033[1;35m] \033[1;37m ➛ \033[38;5;190mGESTOR-SSH COMPATÍVEL COM X86_64!       \033[0;37m┃"
+echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 06 \033[1;35m] \033[1;37m ➛ \033[38;5;190mGESTOR-SSH COMPATÍVEL COM X86_64!       \033[0;37m┃"
 echo -e "\033[1;37m┃    # ATUALIZAR PAINEL WEB 4G 07/07/2022!            \033[0;37m┃"
-echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 08 \033[1;35m] \033[1;37m ➛ \033[38;5;190mATUALIZAR PAINEL WEB 4G                 \033[0;37m┃"
+echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 07 \033[1;35m] \033[1;37m ➛ \033[38;5;190mATUALIZAR PAINEL WEB 4G                 \033[0;37m┃"
 echo -e "\033[1;37m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫\033[0m"
 echo -e "\033[1;37m┃  \033[1;34m[\033[1;37mR ➛\033[1;34m]\033[1;37m ➩ \033[1;33mSCRIPT SSH  \033[1;34m[\033[1;37mP ➛\033[1;34m]\033[1;37m ➩ \033[1;33mPAINEL WEB""             \E[0m\033[0;37m┃"
 echo -e "\033[1;37m┃  \033[1;34m[\033[1;37mF ➛\033[1;34m]\033[1;37m ➩ \033[1;33mFERAMENTAS\033[0;32m \033[1;34m [\033[1;37m0 ➛\033[1;34m]\033[1;37m ➩ \033[1;33mSAIR \033[0;32m""                  \E[0m\033[0;37m┃"
@@ -171,13 +169,7 @@ rm /usr/bin/ssh5
    gestor
    exit;
    ;;
-    7 | 07)
-   clear
-rm /usr/bin/ssh5
-   gestor2
-   exit;
-   ;; 
-   8 | 08)
+   7 | 07)
    clear
 rm /usr/bin/ssh5
    4GAtal
@@ -228,7 +220,7 @@ echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 03 \033[1;35m] \033[1;37m ➩ \03
 echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 04 \033[1;35m] \033[1;37m ➛ \033[38;5;190mPAINEL 4G                               \033[0;37m┃"
 echo -e "\033[1;37m┃ \033[0;34m           INSTALAÇÃO EM UBUNTU 18                  \E[0m\033[0;37m┃"
 echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 05 \033[1;35m] \033[1;37m ➩ \033[38;5;190mPAINEL V20 - Ubuntu 18                  \033[0;37m┃"
-echo -e "\033[1;37m┃ \033[0;34m        INSTALAR GESTOR-SSH NO UBUNTU 18!           \E[0m\033[0;37m┃"
+echo -e "\033[1;37m┃ \033[0;34m        INSTALAR GESTOR-SSH NO UBUNTU 18! X86_64    \E[0m\033[0;37m┃"
 echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 06 \033[1;35m] \033[1;37m ➛ \033[38;5;190mPAINELWEB GESTOR-SSH 2022 Key no video  \033[0;37m┃"
 echo -e "\033[1;37m┃ \033[0;34m           Paineis WEB SSH Apenas UBUNTU 14         \E[0m\033[0;37m┃"
 echo -e "\033[1;37m┃ \033[1;35m  [\033[1;36m 07 \033[1;35m] \033[1;37m ➩ \033[38;5;190mPainel 4G                               \033[0;37m┃"
